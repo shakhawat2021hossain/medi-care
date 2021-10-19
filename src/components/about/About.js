@@ -6,8 +6,11 @@ const About = () => {
   return (
     <div className="container about mt-3">
       <h1 className="text-center">About Us</h1>
-      <div className="d-flex justify-content-between align-items-center my-5">
-        <img className="half-width" src={about} alt="" />
+      <div className="d-flex justify-content-between align-items-center flex-md-row flex-column-reverse my-5">
+        <div className="half-width">
+          <img src={about} alt="" />
+        </div>
+
         <div className="half-width">
           <p>
             We’ve served this richly diverse region as a community hospital for

@@ -1,0 +1,28 @@
+
+.half-width{
+    width: 42%;
+}
+.hero img{
+    width: 90%;
+}
+.hero h5{
+    color: rgb(19, 112, 181);
+    
+}
+.hero h1{
+    color: #25304c;
+    font-size: 43px;
+}
+
+@media only screen and (max-width: 992px) {
+    .half-width{
+        width: 50%;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .half-width{
+        width: 100%;
+    }
+    
+}

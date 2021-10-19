@@ -1,0 +1,23 @@
+.brand {
+  color: rgba(30, 30, 241, 0.692) !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px !important;
+  margin: 0;
+}
+.container .anchor,
+.username {
+  font-size: 18px;
+  color: #0d6efd;
+  margin: 0;
+}
+/* Set the border color */
+
+.custom-toggler.navbar-toggler {
+  border-color: rgba(30, 30, 241, 0.692) !important;
+}
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(30, 30, 241, 0.692)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}

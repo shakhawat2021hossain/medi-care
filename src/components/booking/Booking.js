@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
+import { Link } from "react-router-dom";
 import "./Booking.css";
 
 const Booking = () => {
   const { id } = useParams();
 
   const [serviceDetails, setServiceDetails] = useState([]);
-  const [singleService, setSingleService] = useState([]);
+  // const [singleService, setSingleService] = useState([]);
 
   useEffect(() => {
     fetch("/servicedata.json")
@@ -30,6 +31,7 @@ const Booking = () => {
       <div className="description">
         <img className="image-fluid" src={findService?.img} alt="" />
         <p>{findService?.description}</p>
+        <Link to="/home">Back to Home</Link>
       </div>
     </div>
   );

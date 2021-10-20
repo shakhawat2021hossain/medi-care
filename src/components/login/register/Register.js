@@ -1,9 +1,13 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useHistory } from "react-router-dom";
 import useAuth from "../../../hooks/useAuth";
 const Register = () => {
   const { handleUserRegister } = useAuth();
 
+  const location = useLocation();
+  console.log("came from", location);
+  const redirect_uri = location.state?.from || "/home";
+  const history = useHistory();
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
   const handleEmail = (e) => {
@@ -16,7 +20,9 @@ const Register = () => {
 
   const handleRegister = (e) => {
     e.preventDefault();
-    handleUserRegister(email, pass);
+    handleUserRegister(email, pass).then((result) => {
+      history.push(redirect_uri);
+    });
   };
   return (
     <div className="register">

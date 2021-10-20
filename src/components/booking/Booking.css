@@ -5,3 +5,22 @@
 .description img {
   width: 100%;
 }
+
+.description a {
+  text-decoration: none;
+  background-color: rgb(18, 134, 223);
+  margin-right: 15px;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  box-sizing: border-box;
+  font-weight: 500;
+  transition: all 0.7s;
+}
+.description a:hover {
+  background-color: white;
+  color: rgb(19, 112, 181);
+  border: 1px solid;
+}

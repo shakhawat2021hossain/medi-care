@@ -35,14 +35,7 @@ const useFirebase = () => {
   };
 
   const handleUserRegister = (email, pass) => {
-    createUserWithEmailAndPassword(auth, email, pass)
-      .then((result) => {
-        console.log(result.user);
-      })
-      .catch((error) => {
-        const errorMessage = error.message;
-        console.log(errorMessage);
-      });
+    return createUserWithEmailAndPassword(auth, email, pass);
   };
 
   useEffect(() => {

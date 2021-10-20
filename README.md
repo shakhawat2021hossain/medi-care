@@ -1,36 +1,22 @@
 # Medi Care
 
-This project was done by shakhawat hossain named[medi care](https://medicare-by-shanto.web.app/).
+This project was done by shakhawat hossain named [Medi Care](https://medicare-by-shanto.web.app/).
 
-## Available Scripts
+## Features of my site
 
-In the project we have done:
+In the project we have used html, vanilla css, react bootstrap, react js, font awesome icon etc.
 
-### `Hospital`
+-Single Page Application
+This site is a single page application. The benefits of single page aplication is its easy to use, user friendly because single page application is so fast to use.
 
-the hospital named medi care
+-Responsive
+My site is totally mobile responsive. Any mobile phone user can use it easily.
 
-### `Pharmacy`
+-Login system
+I have added firebase log in system for user. Its easy to use. I have implement google sign in, email password register and log in.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-Private Route
+In this project I have used private route. When some one click on service details button he or she must be log in.
 
-### `Operation`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `medical checkup`
-
-- Item 1
-- Item 2
-- Item 3
-  - Sub Item 1
-  - Sub Item 2
-
-#^ two spaces
+-User Friendly UI
+This simple and user friendly. Anyone can handle it easily.

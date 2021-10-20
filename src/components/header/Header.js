@@ -41,7 +41,14 @@ const Header = () => {
               About
             </Nav.Link>
             <Navbar.Text>
-              <p className="username">{user?.displayName || user?.email}</p>
+              {user.email && (
+                <div className="d-flex">
+                  <p className="username">
+                    <i className="fas fa-user me-2"></i>
+                    {user?.displayName || user?.email}
+                  </p>
+                </div>
+              )}
             </Navbar.Text>
             {user?.email ? (
               <Button onClick={logOut} variant="light">

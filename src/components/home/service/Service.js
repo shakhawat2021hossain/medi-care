@@ -7,7 +7,10 @@ const Service = (props) => {
 
   return (
     <div className="service shadow p-3 rounded">
-      <img src={img} alt="" />
+      <div className="image">
+        <img src={img} alt="" />
+      </div>
+
       <h3>{name}</h3>
       <p>{description.slice(0, 150)}</p>
       <Link to={`/booking/${id}`}>

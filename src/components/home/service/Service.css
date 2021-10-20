@@ -1,9 +1,18 @@
+.service .image {
+  overflow: hidden;
+}
+.service img {
+  transition: all 0.8s;
+}
 .service button {
   background-color: #007bff;
   padding: 8px 10px;
   width: 100%;
   color: white;
   border: none;
+}
+.service:hover img {
+  transform: scale(1.2);
 }
 .service h3 {
   color: #1e669c;
